@@ -20,7 +20,7 @@ nav {
 
 .logo {
     color: #33bcf2;
-    font-size: 64px;
+    font-size: 40px;
 }
 
 a {
@@ -35,12 +35,48 @@ a {
 
 .nav-item {
     padding: 10px;
+    position: relative;
 }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 200px;
+    z-index: 1;
+    border-radius: 4px;
+    padding: 5px 0;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #444;
+}
+
 
 a:hover {
     background-color: white;
     color: #ac33f2;
 }
+
+.dropdown-menu a:hover {
+    background-color: #444;
+    color: white;
+}
+
 
 .right-nav {
     display: flex;
