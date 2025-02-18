@@ -68,13 +68,11 @@ a {
 
 
 a:hover {
-    background-color: white;
-    color: #ac33f2;
+    color: #a88df1;
 }
 
 .dropdown-menu a:hover {
     background-color: #444;
-    color: white;
 }
 
 
