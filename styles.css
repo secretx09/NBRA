@@ -119,3 +119,18 @@ img {
 nav {
     background-color: black;
 }
+
+nav a::before{
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #33bcf2;
+    transition: all .5s;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
