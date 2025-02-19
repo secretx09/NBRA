@@ -141,3 +141,8 @@ nav a:hover::before{
 .white{
     color: white;
 }
+
+img {
+    width: 100px;
+    height: auto;
+}
