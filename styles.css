@@ -21,6 +21,11 @@ nav {
 .logo {
     color: #33bcf2;
     font-size: 40px;
+    overflow: hidden;
+}
+
+span{
+    color: crimson;
 }
 
 a {
