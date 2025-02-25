@@ -144,3 +144,10 @@ img {
     width: 100px;
     height: auto;
 }
+
+.player-card{
+    border:#ddd 1px solid;
+
+    width: 100%;
+
+}
