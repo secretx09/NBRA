@@ -22,6 +22,8 @@ nav {
     color: #33bcf2;
     font-size: 40px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 span{
@@ -136,13 +138,10 @@ nav a:hover::before{
     width: 100%;
 }
 
-.white{
-    color: white;
-}
-
 img {
     width: 100px;
     height: auto;
+    border-radius: 35%;
 }
 
 .player-card{
@@ -152,10 +151,45 @@ img {
 
 }
 
-.red{
+.red {
     color: red;
 }
 
-.blue{
+.blue {
     color: blue;
+}
+
+.white {
+    color: white;
+}
+
+.portland_blue{
+    color: #33bcf2;
+}
+
+.grey{
+    color: grey;
+}
+
+.purple{
+    color: rgb(135, 0, 189);
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-53273.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    padding: 50px;
+    border: 2px black solid;
+    border-radius: 25px;
+    background-color: #aaa;
+}
+
+.card-top {
+    display: flex;
 }
