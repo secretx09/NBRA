@@ -26,7 +26,7 @@ nav {
     align-items: center;
 }
 
-span{
+span {
     color: crimson;
 }
 
@@ -73,7 +73,6 @@ a {
     background-color: #444;
 }
 
-
 a:hover {
     color: #a88df1;
 }
@@ -81,7 +80,6 @@ a:hover {
 .dropdown-menu a:hover {
     background-color: #444;
 }
-
 
 .right-nav {
     display: flex;
@@ -99,7 +97,6 @@ img {
 .img-wrapper img {
     width: 100%;
     object-fit: contain;
-
 }
 
 .img-wrapper {
@@ -110,7 +107,7 @@ nav {
     background-color: black;
 }
 
-nav a::before{
+nav a::before {
     content: '';
     position: absolute;
     bottom: 5px;
@@ -121,7 +118,7 @@ nav a::before{
     transition: all .5s;
 }
 
-nav a:hover::before{
+nav a:hover::before {
     width: 100%;
 }
 
@@ -131,11 +128,9 @@ img {
     border-radius: 35%;
 }
 
-.player-card{
-    border:#ddd 1px solid;
-
+.player-card {
+    border: #ddd 1px solid;
     width: 100%;
-
 }
 
 .red {
@@ -150,32 +145,39 @@ img {
     color: white;
 }
 
-.portland_blue{
+.portland_blue {
     color: #33bcf2;
 }
 
-.grey{
+.grey {
     color: grey;
 }
 
-.purple{
+.purple {
     color: rgb(135, 0, 189);
 }
 
 body {
-    background-image: url('https://img.freepik.com/premium-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-53273.jpg?semt=ais_hybrid');
+    background-image: url('https://img.freepik.com/premium-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-532 73.jpg?semt=ais_hybrid');
     background-size: cover;
     background-position: center;
     margin: 0;
     padding: 0;
 }
 
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 .card {
-    padding: 50px;
-    margin: 50px;
-    width: 350px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    /* Adjusted width for three cards in a row */
     border: 2px black solid;
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: #aaa;
     position: relative;
 }
@@ -183,9 +185,14 @@ body {
 .card-top {
     display: flex;
 }
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
+.card-container:last-child {
+    justify-content: center;
+    /* Center the last two cards */
+}
