@@ -189,3 +189,10 @@ body {
     justify-content: center;
 }
 
+.founders{
+    width: 300px;
+    border-radius: 80%;
+    margin-left: 350px;
+    margin-right: 20px;
+    margin-top: 150px;
+}
