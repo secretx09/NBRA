@@ -177,7 +177,6 @@ body {
     border: 2px black solid;
     border-radius: 25px;
     background-color: #aaa;
-    position: relative;
 }
 
 .card-top {
@@ -194,5 +193,31 @@ body {
     border-radius: 80%;
     margin-left: 350px;
     margin-right: 20px;
-    margin-top: 150px;
+    margin-top: 700px;
+}
+
+.founder{
+    position: relative;
+    text-align: center;
+    top: 600px;
+}
+
+.portland-win{
+    width: 400px;
+    border-radius: 0px;
+    margin-left: 39%;
+}
+
+.portland_w{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.schedule-card{
+    font-size: 35px;
+}
+
+.founders-name{
+    font-size: 25px;
 }
